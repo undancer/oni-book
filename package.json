@@ -1,0 +1,11 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:undancer/book.git",
+  "author": "undancer <undancer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
