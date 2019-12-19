@@ -1,5 +1,17 @@
 {
     "plugins": [
-        "-sharing"
-    ]
+        "-sharing",
+        "back-to-top-button",
+        "page-toc-button",
+        "disqus-legacy"
+    ],
+    "pluginsConfig": {
+        "disqus-legacy": {
+            "shortname": "undancer",
+            "wrapper": "<div class=\"disqus-wrapper\">{{disqus}}</div>",
+            "exclude": [
+                "README.md"
+            ]
+        }
+    }
 }
